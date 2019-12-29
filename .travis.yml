@@ -19,7 +19,7 @@ before_install:
 
 
 script:
-  - docker run okram/react-test npm test -- -- coverage
+  - docker run okram/react-test npm test -- --coverage
 
 deploy:
   provider: script
